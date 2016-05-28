@@ -1,0 +1,14 @@
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><%= link_to "ROLA", root_path, id: "logo-container", class: "brand-logo" %>
+        <ul class="right hide-on-med-and-down">
+            <li><%= link_to "About Us", about_us_path %></li>
+            <li><%= link_to "Contact Us", contact_us_path %></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
